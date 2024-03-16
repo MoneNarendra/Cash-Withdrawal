@@ -1,0 +1,32 @@
+.withdraw-amout-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 47%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.withdraw-amount {
+  height: 40px;
+  color: #c9d1e8;
+  font-family: 'Roboto';
+  font-size: 25px;
+  border: 1px solid #c9d1e8;
+  background-color: #372a57;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .withdraw-amout-item {
+    height: 30px;
+    width: 43%;
+  }
+  .withdraw-amount {
+    font-size: 13px;
+  }
+}
